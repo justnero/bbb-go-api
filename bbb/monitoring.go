@@ -1,4 +1,4 @@
-package api
+package bbb
 
 import (
 	"github.com/justnero/bbb-go-api/data"
