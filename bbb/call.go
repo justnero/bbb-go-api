@@ -7,7 +7,6 @@ import (
 
 func (api *Api) Get(method string, params interface{}, body interface{}) error {
 	url := api.GenerateUrl(method, params)
-	println(url)
 
 	req := fasthttp.AcquireRequest()
 	resp := fasthttp.AcquireResponse()
